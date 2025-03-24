@@ -5,7 +5,7 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>UT06Tarea02</title>
+    <title>Presentación Adóptame</title>
     <link rel="stylesheet" href="css/estilos.css">
     <link rel="icon" type="image/vnd.microsoft.icon" href="assets/img/logo.png" />
 
@@ -14,7 +14,7 @@
 <header>
     <nav>
         <a
-                href=""
+                href="#main"
                 class="logo">
             <img src="assets/img/logo.png" alt="logo de adoptame"/>
             <p>Adóptame</p>
@@ -31,10 +31,22 @@
 </header>
 
 <main>
-    <section class="contenedor_bienvenida">
+    <section id="main" class="contenedor_bienvenida">
         <article class="articulo">
             <h1>Bienvenido a Adóptame</h1>
-            <p>Eslogan.</p>
+            <div class="contenedor_slider">
+                <div class="slider">
+                    <p>Juntos, trabajamos por un futuro donde ningún animal se quede sin amor.</p>
+                    <div class="slides">
+                        <div class="slide"><img src="assets/img/portada.webp" alt="Imagen 1"></div>
+                        <div class="slide"><img src="assets/img/fondo_login.webp"></div>
+                        <div class="slide"><img src="assets/img/fondo_registro.webp"></div>
+                        <div class="slide"><img src="assets/img/fondo_Adopcion.webp"></div>
+                        <div class="slide"><img src="assets/img/gato-mascotas.webp"></div>
+                    </div>
+                </div>
+            </div>
+
         </article>
 
     </section>
@@ -44,12 +56,16 @@
             <p>Adóptame es una plataforma que busca facilitar la adopción de mascotas en situación de calle o abandono. Aquí
                 podrás contactar con protectoras de animales para encontrar a tu
                 mascota y comenzar tu nueva aventura juntos.</p>
+            <p>Colaboramos con refugios y protectoras para maximizar las oportunidades de adopción y asegurar que cada animal encuentre un hogar responsable.</p>
         </article>
     </section>
     <section class="contenedor_video">
         <article class="articulo">
             <h2>Conoce más sobre Adóptame</h2>
-            <video src="" controls></video>
+            <video controls>
+                <source src="assets/video/presentacion%20adoptame%20(720).mp4" type="video/mp4">
+                <track src="assets/video/presentacion-adoptame.vtt" kind="subtitles" srclang="es" label="Español">
+            </video>
         </article>
 
     </section>
